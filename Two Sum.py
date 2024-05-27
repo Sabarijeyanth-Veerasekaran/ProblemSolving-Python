@@ -27,3 +27,4 @@ if __name__=='__main__':
     else:
         print(f"Index of the integer which can added to get {result[2]} are {result[0]},{result[1]}.")
 
+
