@@ -36,7 +36,9 @@ def longestPalindrome(s: str) -> str:
           rightPointer += 1
 
 
-  print(f"Longest Substring Palindrome is {resultStr} and length is {resultLen}")
+  return(resultStr,resultLen)
 
 
-longestPalindrome("racecar")
+if __name__=='__main__':
+    resultSet=longestPalindrome("racecar")
+    print(f"Longest Substring Palindrome is {resultSet[0]} and length is {resultSet[1]}")
