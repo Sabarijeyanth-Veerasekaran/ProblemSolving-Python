@@ -1,4 +1,4 @@
-# Longest Sub String Problem
+# Longest Sub String Without Repeating Character Problem
 #input s="sabari"
 #l = ['sab','bari']
 #output o="bari" --> length of substring is 4
