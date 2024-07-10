@@ -1,3 +1,7 @@
+# Time Complexity
+# O(1) - constant time --> to find element 4
+# O(n) - worst case --> to find element 3
+# O(n/2) - Avearge case --> to find 6 or 8
 def linearSearch(lst,data):
     for i in range(len(lst)):
         if (lst[i]==data):
