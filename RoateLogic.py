@@ -1,9 +1,9 @@
 # Left/Right Problem
-# Input l [1,2,3,4,5] and pointer =3
+# Input l [1,2,3,4,5,6,7] and pointer =3
 # Output L.R : [4, 5, 6, 7, 1, 2, 3], R.R : [5, 6, 7, 1, 2, 3, 4]
 # Approach
-# L.R reverse(k:n),+reverse(0:k)
-# R.R reverse(-k:),+reverse(:-k)
+# L.R reverse(k:n)+reverse(0:k)
+# R.R reverse(-k:)+reverse(:-k)
 
 def leftRotate(numList,rotatePointer):
     n=len(numList)

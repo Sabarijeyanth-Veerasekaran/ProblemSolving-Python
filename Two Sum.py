@@ -2,7 +2,7 @@
 #input l=[4,7,2,11,9]
 #output o=13 --> 2+11 result index will be 2 and 3
 #Approach
-# Calculating differnece between the targer and values present in list and checking if current values already present in the dict
+# Calculating differnece between the target and values present in list and checking if current values already present in the dict
 #If present then returing current index and index of diff value
 #If not presnr then adding the diff to dictionary in the format of key - diff and value - i
 
@@ -20,7 +20,7 @@ def twoSum(numList,target):
 
 if __name__=='__main__':
     nums=[4,7,2,11,9]
-    target=123
+    target=13
     result=twoSum(nums,target)
     if result is  None:
         print(f"There are no integers present in list which can be added to get {target}")
